@@ -1,0 +1,151 @@
+/* Overall dashboard container */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url("https://t3.ftcdn.net/jpg/02/71/06/36/360_F_271063601_bF8ukMjLRIjK72cHpO79NJNY1bgmUACv.jpg"); /* Update the path as necessary */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh;
+}
+
+/* Header buttons container */
+.header-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+/* General button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Individual button styling */
+.analytics-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.analytics-button:hover {
+  background-color: #2980b9;
+}
+
+.feedback-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.feedback-button:hover {
+  background-color: #c0392b;
+}
+
+.energy-report-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.energy-report-button:hover {
+  background-color: #27ae60;
+}
+
+.energy-optimization-button {
+  background-color: #f39c12;
+  color: white;
+}
+
+.energy-optimization-button:hover {
+  background-color: #e67e22;
+}
+
+/* Chart container */
+.chart-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+}
+
+.chart-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tips-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tips-button:hover {
+  background-color: #2980b9;
+}
+
+/* Device energy section */
+.device-energy {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+.device-energy h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.device-energy ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.device-energy li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Device buttons container */
+.device-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Device button styling */
+.device-button {
+  background-color: #9b59b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.device-button:hover {
+  background-color: #8e44ad;
+}

@@ -1,0 +1,86 @@
+.preferences-container {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #f0f4f8, #d9e3f0);
+    transition: background 0.3s ease;
+  }
+  
+  .preferences-container.light {
+    background: linear-gradient(135deg, #ffffff, #e6f0ff);
+  }
+  
+  .preferences-container.dark {
+    background: linear-gradient(135deg, #2c2c2c, #444444);
+    color: #f0f0f0;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .preference-item {
+    margin-bottom: 15px;
+  }
+  
+  .preference-item label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  select:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .feedback-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .feedback-section h3 {
+    color: #007bff;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .rating {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

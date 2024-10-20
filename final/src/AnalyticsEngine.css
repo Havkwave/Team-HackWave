@@ -1,0 +1,129 @@
+/* styles/AnalyticsEngine.css */
+
+/* Set a background image for the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("https://t3.ftcdn.net/jpg/02/71/06/36/360_F_271063601_bF8ukMjLRIjK72cHpO79NJNY1bgmUACv.jpg"); /* Path to your image */
+  background-size: cover; /* Make the image cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Ensure body takes the full height */
+}
+
+.app-container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for visibility */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  margin: 0 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.input-container button {
+  padding: 8px 16px;
+  background-color: #36a2eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+  background-color: #3085d6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #36a2eb;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure modal is above other content */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 300px; /* Width of the modal */
+  text-align: center; /* Center align text */
+}
+
+.modal-content h3 {
+  margin-top: 0; /* Remove default margin for h3 */
+}
+
+.modal-content button {
+  margin-top: 10px; /* Add spacing for the close button */
+  padding: 8px 16px;
+  background-color: #36a2eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #3085d6;
+}
+
+@media (max-width: 600px) {
+  .input-container input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .input-container button {
+    width: 100%;
+  }
+}
